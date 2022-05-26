@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+painel1                                                                           0x0260      33
+painel2                                                                           0x0281      33
+isParabrisaF                                                                      0x02A2       2
+isParabrisaT                                                                      0x02A4       2
+isMovimento0                                                                      0x02A6       2
+isFarol                                                                           0x02A8       2
+_base_y (alcd.lib)                                                                0x02AA       4
+_lcd_x                                                                            0x02AE       1
+_lcd_y                                                                            0x02AF       1
+_lcd_maxx                                                                         0x02B0       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+combustivel                                                                       0x0000       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+isConsumindoCombustivel                                                           R4,R5        2
+isJanelaE                                                                         R6,R7        2
+isJanelaD                                                                         R8,R9        2
+isPortaE                                                                          R10,R11      2
+isPortaD                                                                          R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+diminuiCombustivel                                                                0x000B5     31
+ext_int0_isr                                                                      0x000D4     53
+ext_int1_isr                                                                      0x00109     38
+ext_int2_isr                                                                      0x0012F     20
+timer1_ovf_isr                                                                    0x00143     69
+main                                                                              0x00188    200
+putchar                                                                           0x00250      7
+put_usart_G100                                                                    0x00257     10
+put_buff_G100                                                                     0x00261     46
+_print_G100                                                                       0x0028F    293
+sprintf                                                                           0x003B4     44
+printf                                                                            0x003E0     28
+_lcd_write_nibble_G101                                                            0x003FC     21
+_lcd_write_data                                                                   0x00411     13
+lcd_gotoxy                                                                        0x0041E     20
+lcd_clear                                                                         0x00432     12
+lcd_putchar                                                                       0x0043E     31
+lcd_puts                                                                          0x0045D     15
+lcd_init                                                                          0x0046C     44
+strlen                                                                            0x00498     12
+strlenf                                                                           0x004A4     13

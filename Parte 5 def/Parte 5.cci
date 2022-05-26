@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:531998C0
+NODE:I LEVEL:0 LINE:1 "C:\cvavreval\inc\mega32.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavreval\inc\stdio.h"
+NODE:I LEVEL:0 LINE:3 "C:\cvavreval\inc\delay.h"
+NODE:I LEVEL:0 LINE:6 "C:\cvavreval\inc\alcd.h"
+NODE:V LEVEL:0 LINE:7 "isFarol -> R4,R5"
+NODE:V LEVEL:0 LINE:8 "painel1 -> RAM:????"
+NODE:F LEVEL:0 LINE:10 "ext_int2_isr(void)"
+NODE:F LEVEL:0 LINE:23 "main(void)"

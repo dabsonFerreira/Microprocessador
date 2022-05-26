@@ -1,0 +1,29 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+combustivel                                                                       0x0000       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+isConsumindoCombustivel                                                           R4,R5        2
+isMovimento0                                                                      R6,R7        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+diminuiCombustivel                                                                0x000AE     27
+ext_int0_isr                                                                      0x000C9     23
+ext_int1_isr                                                                      0x000E0     25
+timer1_ovf_isr                                                                    0x000F9     53
+main                                                                              0x0012E    115
+putchar                                                                           0x001A1      7
+put_usart_G100                                                                    0x001A8     14
+_print_G100                                                                       0x001B6    296
+printf                                                                            0x002DE     39
+strlen                                                                            0x00305     12
+strlenf                                                                           0x00311     13

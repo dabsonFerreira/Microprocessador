@@ -1,0 +1,50 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+painel1                                                                           0x0260      33
+painel2                                                                           0x0281      33
+isParabrisaF                                                                      0x02A2       2
+isParabrisaT                                                                      0x02A4       2
+isMovimento0                                                                      0x02A6       2
+_base_y (alcd.lib)                                                                0x02A8       4
+_lcd_x                                                                            0x02AC       1
+_lcd_y                                                                            0x02AD       1
+_lcd_maxx                                                                         0x02AE       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+combustivel                                                                       0x0000       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+isConsumindoCombustivel                                                           R4,R5        2
+isJanelaE                                                                         R6,R7        2
+isJanelaD                                                                         R8,R9        2
+isPortaE                                                                          R10,R11      2
+isPortaD                                                                          R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+diminuiCombustivel                                                                0x000B5     31
+ext_int0_isr                                                                      0x000D4     53
+ext_int1_isr                                                                      0x00109     45
+timer1_ovf_isr                                                                    0x00136     69
+main                                                                              0x0017B    193
+putchar                                                                           0x0023C      7
+put_usart_G100                                                                    0x00243     10
+put_buff_G100                                                                     0x0024D     46
+_print_G100                                                                       0x0027B    293
+sprintf                                                                           0x003A0     44
+printf                                                                            0x003CC     28
+_lcd_write_nibble_G101                                                            0x003E8     21
+_lcd_write_data                                                                   0x003FD     13
+lcd_gotoxy                                                                        0x0040A     20
+lcd_clear                                                                         0x0041E     12
+lcd_putchar                                                                       0x0042A     31
+lcd_puts                                                                          0x00449     15
+lcd_init                                                                          0x00458     44
+strlen                                                                            0x00484     12
+strlenf                                                                           0x00490     13

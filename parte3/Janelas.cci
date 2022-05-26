@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:5312BB08
+NODE:I LEVEL:0 LINE:1 "C:\cvavreval\inc\mega32.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavreval\inc\stdio.h"
+NODE:V LEVEL:0 LINE:3 "combustivel -> EEPROM:????"
+NODE:F LEVEL:0 LINE:6 "timer1_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:49 "main(void)"

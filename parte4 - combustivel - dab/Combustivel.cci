@@ -1,0 +1,11 @@
+VERSION:3 SOURCE_TIMESTAMP:53196B82
+NODE:I LEVEL:0 LINE:1 "C:\cvavreval\inc\mega32.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavreval\inc\stdio.h"
+NODE:V LEVEL:0 LINE:4 "combustivel -> EEPROM:????"
+NODE:V LEVEL:0 LINE:5 "isConsumindoCombustivel -> R4,R5"
+NODE:V LEVEL:0 LINE:7 "isMovimento0 -> R6,R7"
+NODE:F LEVEL:0 LINE:9 "diminuiCombustivel(void)"
+NODE:F LEVEL:0 LINE:21 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:39 "ext_int1_isr(void)"
+NODE:F LEVEL:0 LINE:57 "timer1_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:98 "main(void)"
